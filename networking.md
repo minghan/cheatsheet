@@ -2,29 +2,44 @@
 
 Release dhcp:
 
-    $ sudo dhclient -r
+    sudo dhclient -r
 
 Obtain a fresh ip
 
-    $ sudo dhclient
+    sudo dhclient
 
 List arp
 
-    $ arp -a
+    arp -a
 
 Refresh arp for a particular ip address
 
-    $ ping 192.168.2.10
+    ping 192.168.2.10
 
 Delete arp entry
 
-    $ arp -d 192.168.2.10
+    arp -d 192.168.2.10
 
 Add ip and corresponding mac
 
-    $ arp -s 192.168.2.10 08:23:27:bb:2c:1e
+    arp -s 192.168.2.10 08:23:27:bb:2c:1e
 
 Ping IPv6 address
 
-    $ ping6 -c 1 -I eth0 fe80::21b:63ff:feab:e6a6
+    ping6 -c 1 -I eth0 fe80::21b:63ff:feab:e6a6
     
+
+Bring up/down a network interface
+
+    ifconfig eth1 up
+    ifconfig eth1 down
+
+Displays network connections, routing tables
+
+    netstat -rn
+
+List open files
+
+    lsof -i :22
+
+[Ubuntu Networking Page](https://help.ubuntu.com/community/NetworkConfigurationCommandLine/Automatic)

@@ -116,11 +116,11 @@ Squash last two commits into one using rebase
 
     $ git rebase HEAD~2 -i
 
-Editor will then pop up.
-Observe that the most recent commit is on the last line.
-1st line leave as pick, but from 2nd lin onwards, replace pick with squash.
-Editor will pop up again.
-Merge the commit message and save.
+    # Editor will then pop up.
+    # Observe that the most recent commit is on the last line.
+    # 1st line leave as pick, but from 2nd line onwards, replace pick with squash.
+    # Editor will pop up again.
+    # Merge the commit message and save.
 
 
 Patch

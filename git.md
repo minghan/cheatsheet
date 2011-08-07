@@ -89,6 +89,12 @@ Amend the commit message after a commit but before a push
     
     $ git commit --amend
 
+Undo the commit after a commit but before a push
+
+    $ git reset --soft HEAD^
+    # then edit your files...
+    # then do your new commit
+
 Garbage collection
 
     $ git gc
@@ -97,6 +103,10 @@ Merge without fast forward (useful for explicitly declaring a merge was done)
 
     $ git merge --no-ff some-branch
 
+Git addremove
+
+    $ git add . ; git add -u    # OR...
+    $ git add -A    # Supported in newer versions of git
 
 
 Rebase

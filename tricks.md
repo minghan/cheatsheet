@@ -8,3 +8,9 @@ Disable mouse in vim
     
     :set mouse=
 
+Check the hoost
+
+    whois www.google.com
+    host www.google.com
+
+

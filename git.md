@@ -108,6 +108,11 @@ Git addremove
     $ git add . ; git add -u    # OR...
     $ git add -A    # Supported in newer versions of git
 
+Pull in upstream changes (e.g github)
+
+    $ git fetch upstream
+    $ git merge upstream/master
+
 
 Rebase
 ------

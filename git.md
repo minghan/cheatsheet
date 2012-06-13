@@ -159,3 +159,9 @@ However, this last command can be dangerous in some cases -- never
 throw away a commit if that commit may itself have been merged into 
 another branch, as doing so may confuse further merges.
 
+Etc
+---
+
+Change remote url
+
+    $ git remote set-url origin git@github.com:my_user_name/my_repo.git

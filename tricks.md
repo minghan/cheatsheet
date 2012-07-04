@@ -21,4 +21,6 @@ Spoof MAC Address
 
     sudo ifconfig wlan0 hw ether 5c:ac:4c:9a:00:11
 
+Apt-Get Package Management
 
+    apt-cache search maven

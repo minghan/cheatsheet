@@ -24,3 +24,7 @@ Spoof MAC Address
 Apt-Get Package Management
 
     apt-cache search maven
+
+No-op in #!/bin/sh
+
+    :

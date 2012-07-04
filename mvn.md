@@ -5,6 +5,17 @@ Maven via apt-get
 
     sudo apt-get install maven2
 
+Common commands
+
+    mvn clean
+    mvn package
+    mvn compile
+    mvn prepare
+    mvn assembly:single
+
+    mvn clean package       # common
+
+
 Install into local repository (with example)
 
     mvn install:install-file -Dfile=your-artifact-1.0.jar \

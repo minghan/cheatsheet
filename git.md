@@ -108,6 +108,10 @@ Git addremove
     $ git add . ; git add -u    # OR...
     $ git add -A    # Supported in newer versions of git
 
+Add upstream remote
+
+    $ git remote add upstream http://some_github_url/
+
 Pull in upstream changes (e.g github)
 
     $ git fetch upstream

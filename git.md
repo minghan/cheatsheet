@@ -117,7 +117,6 @@ Pull in upstream changes (e.g github)
     $ git fetch upstream
     $ git merge upstream/master
 
-
 Rebase
 ------
 
@@ -162,6 +161,21 @@ Or, if you've already committed the merge that you want to throw away,
 However, this last command can be dangerous in some cases -- never
 throw away a commit if that commit may itself have been merged into 
 another branch, as doing so may confuse further merges.
+
+Submodule
+---------
+
+Example usage:
+    
+    $ git submodule add git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/solarized
+
+To initialize the submodules when cloning:
+
+    $ git clone --recurse-submodules git://github.com/minghan/cheatsheet.git
+
+Alternatively, you can call submodule update after the clone:
+
+    $ git submodule update --init --recursive
 
 Etc
 ---

@@ -23,7 +23,8 @@ Running
 Note that ``org.hanworks.Runner`` should be replaced with the application entry point (aka main).
 Also note that scope is limited to ``compile``
 
-    mvn compile exec:java -Dexec.classpathScope=compile -Dexec.mainClass=org.hanworks.Runner
+    mvn compile
+    mvn exec:java -Dexec.classpathScope=compile -Dexec.mainClass=org.hanworks.Runner
 
 
 Install into local repository (with example)

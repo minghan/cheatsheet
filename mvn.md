@@ -2,10 +2,12 @@ Useful Maven commands
 =====================
 
 Maven via apt-get
+-----------------
 
     sudo apt-get install maven2
 
 Common commands
+---------------
 
     mvn clean
     mvn package
@@ -15,8 +17,17 @@ Common commands
 
     mvn clean package       # common
 
+Running
+-------
+
+Notes that ``org.hanworks.Runner`` should be replaced with the application entry point (aka main)
+Also note that scope is limited to ``compile``
+
+    mvn compile exec:java -Dexec.classpathScope=compile -Dexec.mainClass=org.hanworks.Runner
+
 
 Install into local repository (with example)
+--------------------------------------------
 
     mvn install:install-file -Dfile=your-artifact-1.0.jar \
                             [-DpomFile=your-pom.xml] \

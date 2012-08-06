@@ -37,6 +37,7 @@ Bring up/down a network interface
 Displays network connections, routing tables
 
     netstat -rn
+    sudo netstat -plten | grep java
 
 List open files
 

@@ -50,3 +50,9 @@ Install into local repository (with example)
                                 -DgeneratePom=true \
                                 -Djavadoc=javadoc-0.5.6.zip
 
+Others
+------
+
+Generates Eclipse config files
+
+    mvn eclipse:eclipse

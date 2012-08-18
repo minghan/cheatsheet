@@ -21,4 +21,8 @@ Spoof MAC Address
 
     sudo ifconfig wlan0 hw ether 5c:ac:4c:9a:00:11
 
+SCP Usage
+
+    http://www.hypexr.org/linux_scp_help.php
+
 

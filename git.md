@@ -108,11 +108,14 @@ Git addremove
     $ git add . ; git add -u    # OR...
     $ git add -A    # Supported in newer versions of git
 
+Add upstream remote
+
+    $ git remote add upstream http://some_github_url/
+
 Pull in upstream changes (e.g github)
 
     $ git fetch upstream
     $ git merge upstream/master
-
 
 Rebase
 ------
@@ -159,3 +162,24 @@ However, this last command can be dangerous in some cases -- never
 throw away a commit if that commit may itself have been merged into 
 another branch, as doing so may confuse further merges.
 
+Submodule
+---------
+
+Example usage:
+    
+    $ git submodule add git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/solarized
+
+To initialize the submodules when cloning:
+
+    $ git clone --recurse-submodules git://github.com/minghan/cheatsheet.git
+
+Alternatively, you can call submodule update after the clone:
+
+    $ git submodule update --init --recursive
+
+Etc
+---
+
+Change remote url
+
+    $ git remote set-url origin git@github.com:my_user_name/my_repo.git

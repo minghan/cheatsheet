@@ -25,4 +25,10 @@ SCP Usage
 
     http://www.hypexr.org/linux_scp_help.php
 
+Apt-Get Package Management
 
+    apt-cache search maven
+
+No-op in #!/bin/sh
+
+    :

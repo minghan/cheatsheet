@@ -32,3 +32,13 @@ Apt-Get Package Management
 No-op in #!/bin/sh
 
     :
+
+System Performance Monitoring
+
+    top
+    
+    # sudo apt-get install sysstat
+    # http://www.thegeekstuff.com/2011/03/sar-examples/
+    iostat -xcm 5
+    pidstat 5
+    vmstat 5

@@ -46,3 +46,8 @@ System Performance Monitoring
 proc fs
 
     http://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-proc-topfiles.html
+
+sorting
+
+    # sort by second column, numeric, using tab as delimiter
+    grep "SOME_TEXT" 0001.txt | sort -nk 2 -t $'\t' > output1.txt

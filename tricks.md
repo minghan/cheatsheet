@@ -52,7 +52,5 @@ sorting
     # sort by second column, numeric, using tab as delimiter
     grep "SOME_TEXT" 0001.txt | sort -nk 2 -t $'\t' > output1.txt
 
-zsh
-
-    http://www.zzapper.co.uk/zshtips.html
+zsh: http://www.zzapper.co.uk/zshtips.html
     

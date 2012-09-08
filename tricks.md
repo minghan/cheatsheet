@@ -54,3 +54,8 @@ sorting
 
 zsh: http://www.zzapper.co.uk/zshtips.html
     
+Shell heredoc
+
+    cat >somefile.txt <<\EOF
+    hello world
+    EOF

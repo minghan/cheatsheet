@@ -22,4 +22,4 @@ Create user
 Backup and Restore
 
     mysqldump someDB   --user=root --password > backup.sql
-    mysqlimport someDB --user=root --password < backup.sql
+    mysql -u root -p someDB < backup.sql

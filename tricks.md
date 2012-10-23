@@ -6,7 +6,7 @@ Extract pages from pdf
 
 Merge two pdfs
 
-     gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=final.pdf -dBATCH file1.pdf file2.pdf
+    gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=final.pdf -dBATCH file1.pdf file2.pdf
 
 Disable mouse in vim
     

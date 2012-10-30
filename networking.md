@@ -44,3 +44,7 @@ List open files
     lsof -i :22
 
 [Ubuntu Networking Page](https://help.ubuntu.com/community/NetworkConfigurationCommandLine/Automatic)
+
+Dump socket stats
+
+    ss

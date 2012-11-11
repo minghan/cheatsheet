@@ -22,3 +22,12 @@ virtualenv
 
     virtualenv --system-site-packages ~/py-env
     source ~/py-env/bin/activate
+
+bootstrapping virtualenv
+
+    curl -O http://pypi.python.org/packages/source/v/virtualenv/virtualenv-1.8.2.tar.gz
+    tar xzf virtualenv-*.tar.gz
+    $(which python) virtualenv-*/virtualenv.py  --system-site-packages ~/py-env
+    rm -rf virtualenv-*/
+    rm -rf virtualenv-*.tar.gz
+    source ~/py-env/bin/activate

@@ -17,3 +17,8 @@ Pretty print JSON
 Profiling python app
 
     python -m cProfile app.py
+
+virtualenv
+
+    virtualenv --system-site-packages ~/py-env
+    source ~/py-env/bin/activate

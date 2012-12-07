@@ -23,3 +23,7 @@ Backup and Restore
 
     mysqldump someDB   --user=root --password > backup.sql
     mysql -u root -p someDB < backup.sql
+
+Change password
+    
+    mysqladmin -u root -p password

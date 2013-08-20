@@ -41,6 +41,7 @@ Revert to state as of checkout (aka hg revert -a)
 
     $ git checkout -f master  # OR...
     $ git checkout .
+    $ git checkout HEAD^ somefile  # Checkout a specific file
 
 Pull/push branch
 

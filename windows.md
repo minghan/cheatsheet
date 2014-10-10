@@ -13,3 +13,7 @@ Usual stuff:
     cmd
     powershell
 
+Visual Studio
+
+    msbuild someproj.csproj /v:diag
+    

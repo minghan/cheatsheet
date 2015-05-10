@@ -12,6 +12,7 @@ Usual stuff:
     explorer
     cmd
     powershell
+    perfmon         # Performance Monitor
 
 Visual Studio
 
@@ -43,6 +44,10 @@ Process Management
     tasklist                       & REM Lists all tasks
     tasklist | find "notepad"      & REM Greps for all tasks containing "notepad"
     taskkill /pid 20792            & REM Kills task with process id 20792
+
+Performance Management
+
+    typeperf "\Memory\Available bytes" "\processor(_total)\% processor time"
 
 System Operations
     

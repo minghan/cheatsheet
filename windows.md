@@ -17,7 +17,7 @@ Visual Studio
 
     msbuild someproj.csproj /v:diag
     
-Command
+Cmd
 
     findstr /spin FooText *        & REM Grep a string
     dir /b /s *FooFile*            & REM Search for filename

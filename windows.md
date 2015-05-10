@@ -38,6 +38,12 @@ File and Directory Operations
     move <source> <dest>           & REM Moves one or more files (supports pattern)
     mkdir FooDirectory
     
+Process Management
+
+    tasklist                       & REM Lists all tasks
+    tasklist | find "notepad"      & REM Greps for all tasks containing "notepad"
+    taskkill /pid 20792            & REM Kills task with process id 20792
+
 System Operations
     
     ipconfig                       & REM Displays TCP/IP network configuration values

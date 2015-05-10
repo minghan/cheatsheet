@@ -19,4 +19,6 @@ Visual Studio
     
 Command
 
-    findstr /spin FooText *
+    findstr /spin FooText *        & REM Grep a string
+    dir /b /s *FooFile*            & REM Search for filename
+    

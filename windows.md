@@ -17,10 +17,14 @@ Visual Studio
 
     msbuild someproj.csproj /v:diag
     
-Cmd
+Cmd ([Microsoft TechNet Reference](https://technet.microsoft.com/en-us/library/cc754340.aspx))
 
     findstr /spin FooText *        & REM Grep a string
     dir /b /s *FooFile*            & REM Search for filename
     tree /f                        & REM tree cmd showing filenames in each directory
     tree /f .\SomeDirectory
     start .                        & REM Launches explorer.exe for current directory
+    ipconfig                       & REM Displays TCP/IP network configuration values
+    <Command> | clip               & Redirects output to Windows clipboard
+    clip < <FileName>              & Copies content of <FileName> onto Windows clipboard
+    cat .\somefile.txt

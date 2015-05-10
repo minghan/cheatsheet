@@ -17,3 +17,6 @@ Visual Studio
 
     msbuild someproj.csproj /v:diag
     
+Command
+
+    findstr /spin FooText *

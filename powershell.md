@@ -10,3 +10,8 @@ Print all env vars:
 Cat a file
 
     Get-Content .\file.txt
+
+Replace text in a file
+
+    $config = Get-Content somefile.xml
+    $config | % { $_.Replace("FOO", $foo) } | % { $_.Replace("BAR", $bar) } | Set-Content somefile.xml

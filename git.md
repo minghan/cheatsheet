@@ -187,3 +187,5 @@ Etc
 Change remote url
 
     $ git remote set-url origin git@github.com:my_user_name/my_repo.git
+
+For revision selection, see https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection

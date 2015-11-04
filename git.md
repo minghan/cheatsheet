@@ -26,6 +26,7 @@ Create a branch based on a remote branch
 
     $ git branch -a # See what are the branches
     $ git checkout -b experimental origin/experimental
+    $ git checkout -b <destination> <source>
 
 List branches (current branch prefixed with *)
 

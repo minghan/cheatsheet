@@ -60,6 +60,8 @@ See git logs
 Checking diffs
 
     $ git diff master..test
+    $ git diff HEAD~2
+    $ git difftool --dir-diff HEAD
 
 Grep files in the work tree
 

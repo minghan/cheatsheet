@@ -121,6 +121,11 @@ Pull in upstream changes (e.g github)
     $ git fetch upstream
     $ git merge upstream/master
 
+Merge and squash all commits in the merge
+
+    $ git merge --squash some-src-branch
+    # Commit the merge manually
+
 Rebase
 ------
 

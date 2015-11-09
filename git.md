@@ -43,7 +43,7 @@ Revert to state as of checkout (aka hg revert -a)
     $ git checkout -f master  # OR...
     $ git checkout .
     $ git checkout HEAD^ somefile  # Checkout a specific file
-    $ git checkout develop -- myplugin.js  # Checkout a file from another branch
+    $ git checkout develop -- somefile.txt  # Checkout a file from another branch
 
 Pull/push branch
 

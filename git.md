@@ -197,4 +197,8 @@ Prune the remote branch list on local repo
 
     $ git remote update origin --prune
 
+Delete a branch on remote
+
+    $ git push origin --delete <branch_name>
+
 For revision selection, see https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection

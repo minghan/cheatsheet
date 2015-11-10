@@ -190,6 +190,10 @@ Alternatively, you can call submodule update after the clone:
 Etc
 ---
 
+Git tree
+
+    $ git log --graph --oneline
+
 Change remote url
 
     $ git remote set-url origin git@github.com:my_user_name/my_repo.git

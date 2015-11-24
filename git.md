@@ -216,7 +216,7 @@ For revision selection, see https://git-scm.com/book/en/v2/Git-Tools-Revision-Se
 Gitflow
 -------
 
-Assumes you are using the [gitflow git extensions](https://github.com/nvie/gitflow)
+Assuming you are using the [gitflow git extensions](https://github.com/nvie/gitflow)
 
     $ git flow feature start <feature_x>
     # The above will create a new branch feature/feature_x

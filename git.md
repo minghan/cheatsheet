@@ -68,6 +68,7 @@ Checking diffs
 Grep files in the work tree
 
     $ git grep some_pattern
+    $ git grep FooBar -- ":(top)" ":(exclude)*.js" ":(exclude)*.json"
 
 Tagging a commit
 

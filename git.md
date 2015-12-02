@@ -137,6 +137,11 @@ Cherry pick
 Rebase
 ------
 
+Rebase `develop` branch onto current working feature `foo` branch
+
+    $ git checkout feature/foo
+    $ git rebase develop
+
 Squash last two commits into one using rebase
 
     $ git rebase HEAD~2 -i

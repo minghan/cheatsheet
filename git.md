@@ -152,6 +152,7 @@ Squash last two commits into one using rebase
     # Editor will pop up again.
     # Merge the commit message and save.
 
+See [this link](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase/) for a good rebase tutorial.
 
 Patch
 -----

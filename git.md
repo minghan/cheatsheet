@@ -206,6 +206,7 @@ Etc
 Git tree
 
     $ git log --graph --oneline
+    $ git config --global alias.tree "log --graph --oneline"    # set as alias
 
 Change remote url
 

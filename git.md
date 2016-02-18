@@ -95,6 +95,7 @@ Undo a push (assuming no one has fetched)
 Amend the commit message after a commit but before a push
     
     $ git commit --amend
+    $ git commit --amend --no-edit # No changes to commit message
 
 Undo the commit after a commit but before a push
 

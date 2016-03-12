@@ -215,6 +215,8 @@ Change remote url
 
 Prune the remote branch list on local repo
 
+    $ git fetch origin --prune
+    # OR
     $ git remote update origin --prune
 
 Delete a branch on remote

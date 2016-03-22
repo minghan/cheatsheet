@@ -105,7 +105,7 @@ Undo the commit after a commit but before a push
 
 Garbage collection
 
-    $ git gc
+    $ git gc --auto
 
 Merge without fast forward (useful for explicitly declaring a merge was done)
 

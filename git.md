@@ -186,6 +186,7 @@ you can always return to the pre-merge state with
 Or, if you've already committed the merge that you want to throw away,
 
     $ git reset --hard ORIG_HEAD
+    # Also: git reset --hard origin/<branch_name>
 
 However, this last command can be dangerous in some cases -- never
 throw away a commit if that commit may itself have been merged into 

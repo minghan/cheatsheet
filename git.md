@@ -135,6 +135,11 @@ Cherry pick
     $ git checkout <brach_you_want_to_apply_cherry_pick_on>
     $ git cherry-pick 9143a9
 
+Cat a file (equivalent of `hg cat`)
+
+    # git show rev:path/to/file
+    $ git show HEAD:path/to/file.txt
+
 Rebase
 ------
 

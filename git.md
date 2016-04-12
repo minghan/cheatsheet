@@ -172,7 +172,7 @@ or
     # Dump 2 patches into one single file
     $ git format-patch -2 HEAD --stdout  > new_patch.diff
     # Still 2 patches, but apply as one
-    $ git am < new_patch.diff
+    $ git am < new_patch.diff --reject
 
 
 Undoing a merge

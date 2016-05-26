@@ -19,3 +19,7 @@ Replace text in a file
 Process Management
 
     get-process
+
+Measure time of a command
+
+    measure-command { . someprog.exe /param1 }

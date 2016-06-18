@@ -204,6 +204,22 @@ However, this last command can be dangerous in some cases -- never
 throw away a commit if that commit may itself have been merged into 
 another branch, as doing so may confuse further merges.
 
+Clean
+-----
+
+Remove untracked files/directories
+
+    # Add -n flag for dry run
+    $ git clean -fd
+    
+Remove untracked and (git)ignored files/directories
+
+    $ git clean -fdx
+    
+Remove only (git)ignored files/directories, leave untracked files/directories
+
+    $ git clean -fdX
+
 Submodule
 ---------
 

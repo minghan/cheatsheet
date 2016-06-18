@@ -207,17 +207,13 @@ another branch, as doing so may confuse further merges.
 Clean
 -----
 
-Remove untracked files/directories
+Add `-n` flag for dry run.
 
-    # Add -n flag for dry run
+    # Remove untracked files/directories
     $ git clean -fd
-    
-Remove untracked and (git)ignored files/directories
-
+    # Remove untracked and (git)ignored files/directories
     $ git clean -fdx
-    
-Remove only (git)ignored files/directories, leave untracked files/directories
-
+    # Remove only (git)ignored files/directories, leave untracked files/directories
     $ git clean -fdX
 
 Submodule

@@ -161,6 +161,16 @@ Squash last two commits into one using rebase
 
 See [this link](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase/) for a good rebase tutorial.
 
+[Undo a rebase](http://stackoverflow.com/a/135614/413672)
+
+    # First, make sure you are in the right branch.
+    # Then find the head you want to undo to in the ref log.
+    $ git reflog
+    # Verify that the version of HEAD you want is correct.
+    $ git log "HEAD@{5}"
+    # Reset to that state of HEAD.
+    $ git reset --hard "HEAD@{5}"
+
 Patch
 -----
 

@@ -260,6 +260,8 @@ Delete a branch on remote
 
 For revision selection, see https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection
 
+Besides `git grep`, you might consider using [ack](http://beyondgrep.com/why-ack/) for navigating source code.
+
 Gitflow
 -------
 

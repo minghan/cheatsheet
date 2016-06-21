@@ -95,6 +95,7 @@ Stash
 
 Undo a push (assuming no one has fetched)
 
+    # git push -f origin last_known_good_commit:branch_name
     $ git push -f origin d0030e59f25f22d7d13f1a:exp_branch
 
 Amend the commit message after a commit but before a push

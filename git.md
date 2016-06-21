@@ -72,6 +72,10 @@ Grep files in the work tree
     $ git grep some_pattern
     $ git grep FooBar -- ":(top)" ":(exclude)*.js" ":(exclude)*.json"
 
+Git list/find files
+
+    $ git ls-files "*.java"
+
 Tagging a commit
 
     $ git tag stable-1 1b2e1d63ff

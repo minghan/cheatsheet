@@ -151,8 +151,10 @@ Rebase
 
 Rebase `develop` branch onto current working feature `foo` branch
 
+    $ git fetch origin
     $ git checkout feature/foo
-    $ git rebase develop
+    # Alternatively:  git rebase -i --autosquash origin/develop
+    $ git rebase origin/develop
 
 Squash last two commits into one using rebase
 

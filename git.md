@@ -54,6 +54,14 @@ Merge from experimental onto the current branch
 
     $ git merge experimental
 
+Commit
+
+    # Commit with message
+    $ git commit -m "Work in progress"
+    # Commit and mark as fixup/squash
+    $ git commit --fixup  <previous_commit_sha>
+    $ git commit --squash <previous_commit_sha>
+
 See git logs
 
     $ git log --pretty=oneline
@@ -153,8 +161,8 @@ Rebase `develop` branch onto current working feature `foo` branch
 
     $ git fetch origin
     $ git checkout feature/foo
-    # Alternatively:  git rebase -i --autosquash origin/develop
     $ git rebase origin/develop
+    # Alternatively: $ git rebase -i --autosquash origin/develop
 
 Squash last two commits into one using rebase
 

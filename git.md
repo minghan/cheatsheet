@@ -64,6 +64,7 @@ Commit
 
 See git logs
 
+    $ git log --oneline --decorate
     $ git log --pretty=oneline
     $ git log --pretty=format:'%h : %s' --graph
 

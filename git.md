@@ -155,6 +155,12 @@ Cat a file (equivalent of `hg cat`)
     # git show rev:path/to/file
     $ git show HEAD:path/to/file.txt
 
+Help
+
+    $ git help <command>
+    $ git help -a            # List all commands
+    $ git help -g            # List all guides
+
 Rebase
 ------
 

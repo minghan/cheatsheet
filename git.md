@@ -131,13 +131,16 @@ Git addremove
     $ git add . ; git add -u    # OR...
     $ git add -A    # Supported in newer versions of git
 
-Add upstream remote
+Sync a fork (e.g. on [Github](https://help.github.com/articles/syncing-a-fork/))
 
-    $ git remote add upstream http://some_github_url/
-
-Pull in upstream changes (e.g github)
-
+    # First, see your remotes
+    $ git remote -v
+    # Configure git to point to a remote named 'upstream'
+    $ git remote add upstream https://github.com/foo/repo.git
+    # After fetching, upstream branches will be in upstream/*
     $ git fetch upstream
+    # We want to sync the 'master' branch
+    $ git checkout master
     $ git merge upstream/master
 
 Merge and squash all commits in the merge
@@ -252,19 +255,6 @@ To initialize the submodules when cloning:
 Alternatively, you can call submodule update after the clone:
 
     $ git submodule update --init --recursive
-
-Sync a fork
------------
-
-    # First, see your remotes
-    $ git remote -v
-    # Configure git to point to a remote named 'upstream'
-    $ git remote add upstream https://github.com/foo/repo.git
-    # After fetching, upstream branches will be in upstream/*
-    $ git fetch upstream
-    # We want to sync the 'master' branch
-    $ git checkout master
-    $ git merge upstream/master
 
 Etc
 ---

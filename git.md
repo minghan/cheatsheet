@@ -253,6 +253,19 @@ Alternatively, you can call submodule update after the clone:
 
     $ git submodule update --init --recursive
 
+Sync a fork
+-----------
+
+    # First, see your remotes
+    $ git remote -v
+    # Configure git to point to a remote named 'upstream'
+    $ git remote add upstream https://github.com/foo/repo.git
+    # After fetching, upstream branches will be in upstream/*
+    $ git fetch upstream
+    # We want to sync the 'master' branch
+    $ git checkout master
+    $ git merge upstream/master
+
 Etc
 ---
 

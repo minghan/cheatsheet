@@ -72,3 +72,9 @@ Vim: Up to character
     dT[char]    # Delete backward including character
     ct[char]    # Change up to and excluding character
     yt[char]    # Yank up to and excluding character
+    
+Vim: Within
+
+    ya["]       # Yank between quotes (including quotes)
+    yi["]       # Yank between quotes (excluding quotes)
+    

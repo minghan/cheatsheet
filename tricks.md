@@ -68,4 +68,5 @@ Vim: Delete up to character
 
     df[char]    # Delete up to and including character
     dt[char]    # Delete up to and excluding character
+    ct[char]    # Change up to and excluding character
 

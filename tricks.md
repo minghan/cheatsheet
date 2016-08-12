@@ -63,3 +63,9 @@ Shell heredoc
     cat >somefile.txt <<\EOF
     hello world
     EOF
+    
+Vim: Delete up to character
+
+    df[char]    # Delete up to and including character
+    dt[char]    # Delete up to and excluding character
+

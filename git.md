@@ -44,6 +44,7 @@ Revert to state as of checkout (aka hg revert -a)
     $ git checkout .
     $ git checkout HEAD^ somefile  # Checkout a specific file from HEAD
     $ git checkout develop -- somefile.txt  # Checkout a file from another branch
+    # In the above, double dash is used to separate <tree> from <path>. Otherwise, <tree> is assumed.
 
 Pull/push branch
 

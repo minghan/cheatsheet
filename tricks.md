@@ -64,9 +64,9 @@ Shell heredoc
     hello world
     EOF
     
-Vim: Delete up to character
+Vim: Up to character
 
     df[char]    # Delete up to and including character
     dt[char]    # Delete up to and excluding character
     ct[char]    # Change up to and excluding character
-
+    yt[char]    # Yank up to and excluding character

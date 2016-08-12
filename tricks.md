@@ -66,7 +66,9 @@ Shell heredoc
     
 Vim: Up to character
 
-    df[char]    # Delete up to and including character
-    dt[char]    # Delete up to and excluding character
+    df[char]    # Delete forward including character
+    dF[char]    # Delete backward including character
+    dt[char]    # Delete forward up to and excluding character
+    dT[char]    # Delete backward including character
     ct[char]    # Change up to and excluding character
     yt[char]    # Yank up to and excluding character

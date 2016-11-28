@@ -75,6 +75,10 @@ Checking diffs
     $ git diff HEAD~2
     $ git difftool --dir-diff HEAD
     $ git diff --no-index file\a file\b
+    
+    # Show the changes in a commit
+    $ git show <commit>
+    $ git show HEAD
 
 Grep files in the work tree
 (Note: always quit the pager with `q`, not `Control-C`)

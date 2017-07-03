@@ -3,9 +3,10 @@ Windows
 
 From run (Control-R):
 
-    eventvwr        # Event Viewer
+    eventvwr                # Event Viewer
     diskmgmt.msc
     services.msc
+    control appwiz.cpl      # Add or remove programs
     
 Usual stuff:
 

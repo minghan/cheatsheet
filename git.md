@@ -65,6 +65,8 @@ Commit
 
 See git logs
 
+    $ git log --all --grep="SearchText"
+    $ git log --author "Foo"
     $ git log --oneline --decorate
     $ git log --pretty=oneline
     $ git log --pretty=format:'%h : %s' --graph

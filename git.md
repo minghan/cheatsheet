@@ -85,13 +85,18 @@ Checking diffs
 Grep files in the work tree
 (Note: always quit the pager with `q`, not `Control-C`)
 
-    $ git grep some_pattern
+    # Use -n to show line numbers. Or set grep.lineNumber.
+    $ git grep -n some_pattern
     $ git grep some_pattern -- "*.cs"
     $ git grep FooBar -- ":(top)" ":(exclude)*.js" ":(exclude)*.json"
 
 Git list/find files
 
     $ git ls-files "*.java"
+
+Git blame
+
+    $ git blame -L <start_line>,<end_line> <relative_file_path>
 
 Tagging a commit
 

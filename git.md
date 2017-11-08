@@ -31,7 +31,8 @@ Create a branch based on a remote branch
 List branches (current branch prefixed with *)
 
     $ git branch
-    $ git branch -a # including remotes
+    $ git branch -a                     # Including remotes
+    $ git branch -a --list "*fooUser*"  # List branches by pattern
 
 Checking out a branch in working folder (either one)
 

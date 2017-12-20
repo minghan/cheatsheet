@@ -109,6 +109,11 @@ Commit to a new branch w/o first committing to a current branch
 
 Stash
 
+    # Simple use:
+    $ git stash         # stash the change
+    $ git stash pop     # applies and throws away the change (otherwise, use: git stash apply)
+
+    # More complex commands:
     $ git stash save "message"
     $ git stash save --keep-index "message" # do not revert the state of the tree
     $ git stash list

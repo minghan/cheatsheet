@@ -6,6 +6,7 @@ From run (Control-R):
     eventvwr                # Event Viewer
     diskmgmt.msc
     services.msc
+    lusrmgr.msc
     control appwiz.cpl      # Add or remove programs
     
 Usual stuff:

@@ -4,6 +4,7 @@ Python Tricks
 HTTP Server serving current directory
 
     python -m SimpleHTTPServer 8000
+    python3 -m http.server 8080
 
 Fake SMTP server for testing/debugging
 

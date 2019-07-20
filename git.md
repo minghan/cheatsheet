@@ -33,6 +33,7 @@ List branches (current branch prefixed with *)
     $ git branch
     $ git branch -a                     # Including remotes
     $ git branch -a --list "*fooUser*"  # List branches by pattern
+    $ git branch -vv
 
 Checking out a branch in working folder (either one)
 
